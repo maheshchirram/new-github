@@ -9,6 +9,6 @@ resource "aws_instance" "github_runner_ec2" {
   key_name = "githubaction"   # Replace with your key pair
 
   tags = {
-    Name = "github-actions"
+    Name = "github"
   }
 }
